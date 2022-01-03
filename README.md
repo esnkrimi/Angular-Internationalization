@@ -1,14 +1,16 @@
 # angular-internationalization
-<b>angular-internationalization - i18n</b>
+angular-internationalization - i18n
+Hi here is some text <span style="color: red">this is red</span>.
 
-<b>first of all , install requirements:</b>
-
+first of all , install requirements:
+```swift
     npm install @ngx-translate/core --save
     npm install @ngx-translate/http-loader --save
     npm install @biesbjerg/ngx-translate-extract --save
     
-<b>next , import modules in app.module</b>
-   
+next , import modules in app.module
+
+    
     import {TranslateModule,TranslateLoader} from '@ngx-translate/core'; 
     import {TranslateHttpLoader} from '@ngx-translate/http-loader';
     import {HttpClient, HttpClientModule } from '@angular/common/http';
@@ -27,10 +29,10 @@
       }
     })  
 
-<b>you should define some translator file for each language in assets/translateFolder</b>
+you should define some translator file for each language in assets/translateFolder
 
 
-<b>for example the english translator file can be :</b>
+for example the english translator file can be :
 
     { 
       "home":{ 
@@ -41,7 +43,7 @@
       }
     }
     
-<b>and for spanish:</b>
+and for spanish:
 
     { 
       "home":{ 
